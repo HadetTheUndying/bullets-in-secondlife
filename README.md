@@ -15,7 +15,7 @@ The Box is King when it comes to bullets for 3 reasons
 
 1. It is the easiest primitive shape to render.
 2. It has the fastest collision response time, which is the most important reason to use it over a Sphere or a Capsule.
-3. The physics impact of a box does not change when it is scaled, unlike a sphere. Sphere's also have a much slower response time.
+3. The physics impact of a box does not change when it is scaled, unlike a sphere. Spheres also have a much slower response time.
 
 
 **Credit:**
