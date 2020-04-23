@@ -9,6 +9,7 @@ The second life engine uses what's called "discrete collision detection" which i
 
 ![alt text](https://raw.githubusercontent.com/HadetTheUndying/bullets-in-secondlife/master/performancost.png "Performance Cost")
 
+
 **Don't Use Mesh Bullets:**
 
 Linden Labs chose DCD for SL because it's the simplest method collision detection. To check every face of every object would have a huge impact on performance especially with geometrically complex objects. This is why mesh is uploaded with a separate compound hitbox and does not use the actual object for physical interactions.[Reference](https://en.wikipedia.org/wiki/Collision_detection#A_posteriori_.28discrete.29_versus_a_priori_.28continuous.29)
